@@ -94,7 +94,7 @@ const Hero = () => {
         {/* Sidebar Overlay */}
         {sidebar && (
           <div
-            className="absolute top-0 left-0 w-full h-full bg-primaryDark bg-opacity-10 z-[9]"
+            className="absolute top-0 left-0 w-full h-full bg-primaryDark bg-opacity-30 z-[9]"
             onClick={() => setSidebar(false)}
           ></div>
         )}
